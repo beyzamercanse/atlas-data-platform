@@ -1,0 +1,49 @@
+{
+  "request_id": "px-20261124",
+  "business_date": "2026-11-24",
+  "source": "SAMPLE_BLOOMBERG",
+  "securities": [
+    {
+      "isin": "US0378331005",
+      "name": "Apple Inc",
+      "currency": "USD",
+      "px_last": 189.5
+    },
+    {
+      "isin": "US5949181045",
+      "name": "Microsoft Corp",
+      "currency": "USD",
+      "px_last": 415.2
+    },
+    {
+      "isin": "CH0038863350",
+      "name": "Nestle SA",
+      "currency": "CHF",
+      "px_last": 98.5
+    },
+    {
+      "isin": "CH0012005267",
+      "name": "Novartis AG",
+      "currency": "CHF",
+      "px_last": 87.3
+    },
+    {
+      "isin": "NL0010273215",
+      "name": "ASML Holding",
+      "currency": "EUR",
+      "px_last": 642.1
+    },
+    {
+      "isin": "FR0000121014",
+      "name": "LVMH",
+      "currency": "EUR",
+      "px_last": 701.4
+    },
+    {
+      "isin": "XS1234567896",
+      "name": "Example Corp 4% 2030",
+      "currency": "EUR",
+      "px_last": 100.25
+    }
+  ]
+}

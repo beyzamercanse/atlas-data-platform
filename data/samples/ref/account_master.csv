@@ -1,0 +1,11 @@
+account_id,custodian,client_key,is_active
+A001,UBS,C-0001,true
+A002,UBS,C-0002,true
+A003,UBS,C-0003,true
+A004,UBS,C-0004,true
+P001,PICTET,C-0005,true
+P002,PICTET,C-0006,true
+P003,PICTET,C-0007,true
+J001,JB,C-0008,true
+J002,JB,C-0009,true
+J003,JB,C-0010,true

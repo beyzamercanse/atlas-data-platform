@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Statement bank="PICTET" businessDate="2026-11-24">
+  <Account id="P001">
+    <Position>
+      <ISIN>US5949181045</ISIN>
+      <Quantity>126.00</Quantity>
+      <Price currency="USD">415.2000</Price>
+    </Position>
+    <Position>
+      <ISIN>FR0000121014</ISIN>
+      <Quantity>405.00</Quantity>
+      <Price currency="EUR">701.4000</Price>
+    </Position>
+    <Position>
+      <ISIN>US0378331005</ISIN>
+      <Quantity>158.00</Quantity>
+      <Price currency="USD">189.5000</Price>
+    </Position>
+    <Position>
+      <ISIN>NL0010273215</ISIN>
+      <Quantity>50.00</Quantity>
+      <Price currency="EUR">642.1000</Price>
+    </Position>
+    <Position>
+      <ISIN>CH0038863350</ISIN>
+      <Quantity>447.00</Quantity>
+      <Price currency="CHF">98.5000</Price>
+    </Position>
+  </Account>
+  <Account id="P002">
+    <Position>
+      <ISIN>XS1234567896</ISIN>
+      <Quantity>25000.00</Quantity>
+      <Price currency="EUR">100.2500</Price>
+    </Position>
+    <Position>
+      <ISIN>US0378331005</ISIN>
+      <Quantity>242.00</Quantity>
+      <Price currency="USD">189.5000</Price>
+    </Position>
+    <Position>
+      <ISIN>CH0012005267</ISIN>
+      <Quantity>335.00</Quantity>
+      <Price currency="CHF">87.3000</Price>
+    </Position>
+  </Account>
+  <Account id="P003">
+    <Position>
+      <ISIN>US5949181045</ISIN>
+      <Quantity>353.00</Quantity>
+      <Price currency="USD">415.2000</Price>
+    </Position>
+    <Position>
+      <ISIN>CH0038863350</ISIN>
+      <Quantity>146.00</Quantity>
+      <Price currency="CHF">98.5000</Price>
+    </Position>
+    <Position>
+      <ISIN>FR0000121014</ISIN>
+      <Quantity>369.00</Quantity>
+      <Price currency="EUR">701.4000</Price>
+    </Position>
+    <Position>
+      <ISIN>XS1234567896</ISIN>
+      <Quantity>50000.00</Quantity>
+      <Price currency="EUR">100.2500</Price>
+    </Position>
+  </Account>
+  <Summary positionCount="12" />
+</Statement>
