@@ -1,0 +1,11 @@
+services:
+  bank-sftp:
+    image: atmoz/sftp:alpine
+    platform: linux/amd64
+    container_name: atlas-bank-sftp
+    ports:
+      - "2222:22"
+    volumes:
+      - ./secrets/bank_sftp_key.pub:/home/ubs/.ssh/keys/bank_sftp_key.pub:ro
+      - ./data/samples/ubs:/home/ubs/outbound:ro
+    command: ubs::1001

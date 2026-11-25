@@ -1,0 +1,7 @@
+Adım 1'de doğrudan main'e commit attık. Gerçek bir ekipte bu yapılmaz, çünkü main canlıdaki koddur. Kural şu:
+
+main'den kendi branch'ini (dal) açarsın: ana kodun bir kopyası, sadece senin.
+İşini orada yapar ve commit'lersin. main bu sırada hiç bozulmaz.
+GitHub'da pull request (PR) açarsın: "Bu değişiklikleri main'e almak istiyorum, bakar mısınız?"
+Bir meslektaşın kodu okur (code review), onaylar.
+Merge: değişiklikler main'e girer.
