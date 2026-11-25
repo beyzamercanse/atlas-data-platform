@@ -16,3 +16,4 @@ data/quarantine/
 
 # Mac
 .DS_Store
+data/clean/

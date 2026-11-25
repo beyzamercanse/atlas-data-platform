@@ -1,0 +1,6 @@
+bank: ubs
+format: csv
+file: UBS_POS_{stamp}.csv
+delimiter: ";"
+date_format: "%d.%m.%Y"
+columns: [account_id, isin, quantity, price, currency, business_date]

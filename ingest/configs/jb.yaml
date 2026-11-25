@@ -1,0 +1,12 @@
+bank: jb
+format: fixed_width
+file: JB_POS_{stamp}.txt
+record_length: 58
+date_format: "%Y%m%d"
+layout:                      # [baslangic, bitis] karakter, varsa 3. sayi = gizli ondalik
+  account_id: [1, 11]
+  isin: [11, 23]
+  quantity: [23, 35, 2]
+  price: [35, 47, 4]
+  currency: [47, 50]
+  business_date: [50, 58]

@@ -1,0 +1,3 @@
+bank: pictet
+format: xml
+file: PICTET_POS_{stamp}.xml
