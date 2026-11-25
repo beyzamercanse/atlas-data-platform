@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+.ruff_cache/
+
+# Sırlar
+.env
+secrets/
+*.key
+
+# Atlas: veri ve karantina asla git'e girmez (GDPR)
+data/raw/
+data/quarantine/
+
+# Mac
+.DS_Store
