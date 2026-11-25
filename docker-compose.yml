@@ -9,3 +9,19 @@ services:
       - ./secrets/bank_sftp_key.pub:/home/ubs/.ssh/keys/bank_sftp_key.pub:ro
       - ./data/samples/ubs:/home/ubs/outbound:ro
     command: ubs::1001
+
+  warehouse:
+    image: postgres:16
+    container_name: atlas-warehouse
+    environment:
+      POSTGRES_USER: atlas
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+      POSTGRES_DB: atlas
+    ports:
+      - "5433:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+      - ./sql/init:/docker-entrypoint-initdb.d:ro
+
+volumes:
+  pgdata:
